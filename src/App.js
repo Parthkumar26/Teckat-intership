@@ -9,28 +9,31 @@ function App() {
   //   {
   //     console.log("Hello World")
   //   }
-   const student = {
-    student_name: "Aman", 
+//    const student = {
+//     student_name: "Aman", 
     
-   }
-   const student2 = {
-    student_name: "Aman",
-   }
+//    }
+//    const student2 = {
+//     student_name: "Aman",
+//    }
 
-   const fun = () =>{
-    let a = 1;
-    let b = 2;
-    let c = a+b;
-    console.log(c)
-   }
-  if(student.student_name === student2.student_name)
-{
-  fun()
-}  
-else{
-  console.log("Hello world")
+//    const fun = () =>{
+//     let a = 1;
+//     let b = 2;
+//     let c = a+b;
+//     console.log(c)
+//    }
+//   if(student.student_name === student2.student_name)
+// {
+//   fun()
+// }  
+// else{
+//   console.log("Hello world")
+// }
+const arr1 = [1,3,2,5,4]
+for (let item of arr1){
+  console.log(item)
 }
-
   return (
     <div className="App">
       <header className="App-header">
