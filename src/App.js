@@ -74,21 +74,21 @@ function App() {
 // console.log("employees", employees);
 // console.log("mappedEmployee", mappedEmployees);
 
-const employees = [
-  {employee_Name: "Parth kumar", Age : 20, income : 50000},
-  {employee_Name: "Aman kumar", Age : 32, income : 60000}, 
-  {employee_Name: "Shivam singh", Age : 25, income : 70000},
-  {employee_Name: "Rohan", Age : 20, income : 50000},
-  {employee_Name: "Aman Thakur", Age : 32, income : 60000}, 
-  {employee_Name: "Lalan kumar", Age : 25, income : 70000},
-  {employee_Name: "Aryan singh", Age : 20, income : 50000},
-  {employee_Name: "Priya kumari", Age : 32, income : 60000}, 
-  {employee_Name: "Ashutosh kumar", Age : 25, income : 70000},
-]
-const filterEmployee = employees.filter((item) => {
-  return item.Age === 20;
-});
-console.log("Filter_Employee" ,filterEmployee)
+// const employees = [
+//   {employee_Name: "Parth kumar", Age : 20, income : 50000},
+//   {employee_Name: "Aman kumar", Age : 32, income : 60000}, 
+//   {employee_Name: "Shivam singh", Age : 25, income : 70000},
+//   {employee_Name: "Rohan", Age : 20, income : 50000},
+//   {employee_Name: "Aman Thakur", Age : 32, income : 60000}, 
+//   {employee_Name: "Lalan kumar", Age : 25, income : 70000},
+//   {employee_Name: "Aryan singh", Age : 20, income : 50000},
+//   {employee_Name: "Priya kumari", Age : 32, income : 60000}, 
+//   {employee_Name: "Ashutosh kumar", Age : 25, income : 70000},
+// ]
+// const filterEmployee = employees.filter((item) => {
+//   return item.Age === 20;
+// });
+// console.log("Filter_Employee" ,filterEmployee)
 
 
   return (
