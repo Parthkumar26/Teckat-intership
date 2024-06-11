@@ -3,16 +3,36 @@ import './App.css'
 
 function App() {
 
-  const [student, setStudent] = useState<string>();
+  const [data , setData] = useState<number>(0);
+  const [numberData, setNumberData] =  useState<number>(0)
 
   useEffect(() => {
-    setStudent("hello");
-  },[]);
+    addData();
+  },[numberData]);
+
+  const addData = () => {
+    const oldData = data;
+    const newData = oldData + 1;
+    setData(newData);
+    console.log(newData);
+  };
+
+  const decrementData = () =>{
+    setNumberData(numberData - 1);
+  }
+
+
   return (
     <>
-      <div>
-        {student}
-      </div>
+      <button title='title' onClick={addData} className={`number ${data}`}>
+        click here to Increment Data
+      </button>
+      <div>Increment data:{data}</div>
+    <br />
+
+    <button onClick={decrementData} className={`decrement ${numberData}`}> click here to Decrement Data</button>
+    <div>decrement data: {numberData}</div>
+
     </>
   )
 }
