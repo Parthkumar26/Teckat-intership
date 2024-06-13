@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 
-function App() {
 
+function App() {
   const [data , setData] = useState<number>(0);
   const [numberData, setNumberData] =  useState<number>(0)
 
@@ -41,7 +41,7 @@ function App() {
     <button onClick={decrementData} className={`decrement ${numberData}`}> click here to Decrement Data</button>
     <div>decrement data: {numberData}</div>
 
-
+{/* mapping method */}
     {numberArray.map((item, i) => {
       return <div key={i}>{item}</div>;
     })}
