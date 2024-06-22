@@ -18,6 +18,7 @@ const HomePage =() =>{
   useEffect(() => {
     addData();
   },[numberData]);
+  
 
   const addData = () => {
     const oldData = data;
