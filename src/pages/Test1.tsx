@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-const Test1 = () => {
+const Test1 : React.FC= () => {
 
     const[val, setVal] = useState(0);
     useEffect(()=>{
